@@ -1,0 +1,138 @@
+body {
+
+        margin: 0px;
+        padding: 0px;
+}
+nav{
+    position: fixed;
+    width: 100%;
+}
+
+.container {
+
+                background-image: url("/image/background.png");
+                height:790px;
+                width: auto;
+                overflow: scroll;
+
+}
+
+#firstPage {
+
+                background-color: rgb(242, 243, 244);
+                height: 700px;
+                box-shadow: 5px 5px 50px rgb(91, 94, 97);
+
+}
+.offers {
+    display: none;
+}
+
+.offer img {
+                padding-top: 100px;
+                height: 500px;
+}
+
+#topMenu {
+
+                background-color: rgba(234, 237, 237, 1);
+                height: 50px;
+                box-shadow: 5px 5px 50px rgb(91, 94, 97);
+                             
+}
+            ul {
+
+                            list-style-type: none;
+                            line-height: 40px;
+                            cursor: pointer;
+                            
+            }
+
+            #item:hover{
+                        background-color: white;
+                        width: 13%;
+                        box-shadow: 5px 5px 50px rgb(91, 94, 97);
+            }
+            #logo:hover{
+                background-color: white;
+    }
+
+            #logo {
+
+                            float: left;
+                            width: 8%;
+                            
+            }
+            #item {
+
+                            float: left;
+                            width: 12%;
+                            text-align: center;
+                                                      
+            }
+            #space{
+                            float: left;
+                            width: 50%;
+            }
+
+#secondPage {
+
+                height: 550px;
+               
+}
+
+                #trial{
+                    height: 300px;
+                }
+                
+               
+
+
+
+                #trial1{
+
+                           
+                            
+                            margin: auto;
+                            height: 350px;    
+                            width:30%;
+                            border-radius: 5px;
+                            box-shadow: 5px 5px 50px rgb(91, 94, 97);
+                            animation: flot 10s infinite linear;
+                                                  
+            }
+#trial1 img {
+
+        height: 350px;
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 5px 5px 50px rgb(91, 94, 97);
+       
+}
+#trial1:hover{
+    position: relative;
+    animation: flot 3s 1 reverse;
+    
+}
+           
+
+            @keyframes flot{
+                0%{
+                    transform: rotate3d(0);
+                }
+
+                100%{
+                    /* transform : rotate(x,y,z, angle);  */
+                    transform: rotate3d(0, 1, 0, 360deg);
+                    }
+
+            }
+
+#thirdPage {
+
+               background-color: rgb(242, 243, 244);
+                height: 550px;
+                box-shadow: 5px 5px 50px rgb(91, 94, 97);
+               
+
+}
