@@ -109,11 +109,7 @@ nav{
         box-shadow: 5px 5px 50px rgb(91, 94, 97);
        
 }
-#trial1:hover{
-    position: relative;
-    animation: flot 3s 1 reverse;
-    
-}
+
            
 
             @keyframes flot{
@@ -130,9 +126,30 @@ nav{
 
 #thirdPage {
 
-               background-color: rgb(242, 243, 244);
+                overflow:scroll;
+                background-color: rgb(242, 243, 244);
                 height: 550px;
                 box-shadow: 5px 5px 50px rgb(91, 94, 97);
+                padding-top: 90px;
+                
+                
                
 
 }
+                .box{
+                            cursor: pointer;
+                            margin: 10px;                            
+                            height: 14rem;
+                            width: 14rem;
+                            background-color: white;
+                            float: left;
+
+                }
+
+                .box:hover{
+                            box-shadow: 5px 5px 50px rgb(91, 94, 97);
+                }
+                .box img{
+                    height: 14rem;
+                    width: 14rem;
+                }
