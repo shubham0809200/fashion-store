@@ -141,15 +141,19 @@ nav{
                             margin: 10px;                            
                             height: 14rem;
                             width: 14rem;
-                            background-color: white;
+                            background-color: rgb(221, 231, 241);
                             float: left;
-
+                            object-position: bottom;
                 }
 
                 .box:hover{
-                            box-shadow: 5px 5px 50px rgb(91, 94, 97);
+                            box-shadow: 5px 5px 15px rgb(91, 94, 97);
+                                                
                 }
+                
                 .box img{
-                    height: 14rem;
-                    width: 14rem;
+                        height: 12rem;
+                        width: 11.5rem;
+                        padding: 20px;
                 }
+          
