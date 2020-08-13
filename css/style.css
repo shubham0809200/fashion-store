@@ -167,4 +167,44 @@ nav{
                         width: 11.5rem;
                         padding: 20px;
                 }
-          
+
+
+#fifthPage {
+                height: 200px;
+                background-color:rgb(143, 183, 223) ;
+             
+               
+}
+
+                .endSection{                       
+                      
+                        width: 50%;
+                        border-right: 1px solid white ;
+                        float: left;
+                                             
+                }
+                .endSection1{                       
+                      
+                    width: 49%;
+                    float: left;
+                   
+                                         
+            }
+
+
+                #innerBox{
+                      
+                        padding: 50px;
+                        background-color: rgb(46, 95, 145);
+                       
+                }
+
+                .head{
+
+                        font-size: 25px;
+                       
+                }
+
+                .lines{
+                    font-size: 15px;
+                }
