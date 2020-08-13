@@ -170,38 +170,47 @@ nav{
 
 
 #fifthPage {
-                height: 200px;
-                background-color:rgb(143, 183, 223) ;
+                padding: 25px;
+                height: 265px;
+                background-color:rgb(252, 253, 253) ;
              
                
 }
 
                 .endSection{                       
                       
-                        width: 50%;
+                        width: 48%;
                         border-right: 1px solid white ;
-                        float: left;
-                                             
+                        float: left;  
+                           
+                                                                  
                 }
+
                 .endSection1{                       
                       
-                    width: 49%;
+                    width: 48%;
                     float: left;
-                   
-                                         
+                   padding-left: 15px;
+                                                                    
             }
 
 
                 #innerBox{
                       
-                        padding: 50px;
-                        background-color: rgb(46, 95, 145);
+                        height: 200px;
+                        padding: 25px;
+                     
+                        background-color: rgb(220, 230, 241);
+                        overflow: hidden;
+                        box-shadow: 5px 5px 50px rgb(55, 58, 61);
+                       
                        
                 }
 
                 .head{
 
                         font-size: 25px;
+                        text-decoration: underline;
                        
                 }
 
