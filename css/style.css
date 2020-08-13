@@ -17,6 +17,10 @@ nav{
 
 }
 
+.container::-webkit-scrollbar {
+    display: none;
+}
+
 #firstPage {
 
                 background-color: rgb(242, 243, 244);
@@ -126,16 +130,23 @@ nav{
 
 #thirdPage {
 
-                overflow:scroll;
+                overflow-y:scroll;
                 background-color: rgb(242, 243, 244);
-                height: 550px;
+                height: auto;
+                width: 100%;
                 box-shadow: 5px 5px 50px rgb(91, 94, 97);
-                padding-top: 90px;
-                
-                
+                padding-top: 90px;  
+                padding-left: 30px;
+                padding-bottom: 10px;
+              
                
 
 }
+
+#thirdPage::-webkit-scrollbar {
+    display: none;
+}
+
                 .box{
                             cursor: pointer;
                             margin: 10px;                            
@@ -143,7 +154,7 @@ nav{
                             width: 14rem;
                             background-color: rgb(221, 231, 241);
                             float: left;
-                            object-position: bottom;
+                           
                 }
 
                 .box:hover{
