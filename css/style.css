@@ -42,8 +42,13 @@ nav{
                 background-color: rgba(234, 237, 237, 1);
                 height: 50px;
                 box-shadow: 5px 5px 50px rgb(91, 94, 97);
-                             
+                          
 }
+
+#topMenu a {
+    text-decoration: none;  
+}
+
             ul {
 
                             list-style-type: none;
@@ -217,3 +222,30 @@ nav{
                 .lines{
                     font-size: 15px;
                 }
+
+
+.fashion {
+               padding-top: 100px;
+               font-size: 50px;
+               font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+               font-weight: lighter;
+              
+}
+
+.fashion ul{
+                line-height: 120%;
+                
+}
+
+.fashion1:hover{
+
+                color: red;
+}
+
+.fashion1 a {
+
+                text-decoration: none;
+}
+
+.fashion a:hover {
+    text-decoration: underline;
