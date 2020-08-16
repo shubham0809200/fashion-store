@@ -10,7 +10,7 @@ nav{
 
 .container {
 
-                background-image: url("/image/background.png");
+                background-image: url("../background.png");
                 height:790px;
                 width: auto;
                 overflow: scroll;
